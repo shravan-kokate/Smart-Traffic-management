@@ -1,0 +1,1 @@
+https://traffic-predictor-550ec-default-rtdb.asia-southeast1.firebasedatabase.app

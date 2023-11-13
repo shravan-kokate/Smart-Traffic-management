@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "96893374979",
+    "firebase_url": "https://traffic-predictor-550ec-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "traffic-predictor-550ec",
+    "storage_bucket": "traffic-predictor-550ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96893374979:android:ff7be1a8f936744eefb436",
+        "android_client_info": {
+          "package_name": "com.example.traffic_predictor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96893374979-8j5agfro493ekfeiu4apbbhav6fkp2rf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj9t1yctfMF2GZd8yz3xsAK8KfTxvCN7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96893374979-8j5agfro493ekfeiu4apbbhav6fkp2rf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

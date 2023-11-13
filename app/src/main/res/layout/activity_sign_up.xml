@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context=".Sign_Up">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextText"
+        android:layout_width="279dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:hint="Enter your Name"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="279dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:hint="enter your E-mail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="279dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintVertical_bias="0.124" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextTextPassword3"
+        android:layout_width="279dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2"
+        app:layout_constraintVertical_bias="0.149" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="113dp"
+        android:layout_height="54dp"
+        android:background="@drawable/square_shape"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:onClick="SignedUp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword3"
+        app:layout_constraintVertical_bias="0.29" />
+</androidx.constraintlayout.widget.ConstraintLayout>
